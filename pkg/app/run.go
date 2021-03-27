@@ -1,3 +1,5 @@
+//go:generate gomacro -f -m -w make_fibonacci.gomacro
+
 package app
 
 import (
